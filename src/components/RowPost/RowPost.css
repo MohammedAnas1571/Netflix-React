@@ -1,0 +1,46 @@
+.row{
+    margin-left: 20px;
+    color: #fff;
+}
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.poster{
+    max-height: 225px;
+    margin-right: 5px;
+    cursor:pointer;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}.smallPoster{
+    max-height: 125px;
+    margin-right: 5px;
+    cursor:pointer;
+    
+}
+.poster:hover{
+    transform:scale(1.2);
+}.smallPoster:hover{
+    transform:scale(1.2);
+}.youtube{
+    text-align: center;
+}
+.close-button {
+    margin-top: 20px;
+    background-color: #007bff; /* Primary color - you can change this */
+    border: none;
+    border-radius: 20px;
+    color: #fff; /* Text color */
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    transform:scale(1.2);
+  
+}
+.close-button:hover {
+    background-color: #b30000; /* Darker color on hover - you can change this */
+}
